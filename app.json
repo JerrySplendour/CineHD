@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CineHD",
+    "slug": "cinehd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d0d1a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cinehd.app"
+    },
+    "android": {
+      "package": "com.cinehd.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#0d0d1a"
+      },
+      "permissions": ["android.permission.INTERNET"]
+    }
+  }
+}
